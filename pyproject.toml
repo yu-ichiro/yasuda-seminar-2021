@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "yasuda-seminar-2021"
+version = "0.1.0"
+description = ""
+authors = ["Yuichiro Smith <contact@yu-smith.com>"]
+license = "Apache Licence 2.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+jupyterlab = "^3.0.14"
+poetry = "^1.1.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
