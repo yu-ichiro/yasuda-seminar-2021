@@ -7,6 +7,9 @@ license = "Apache Licence 2.0"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+matplotlib = "^3.4.1"
+numpy = "^1.20.2"
+sympy = "^1.8"
 
 [tool.poetry.dev-dependencies]
 jupyterlab = "^3.0.14"
